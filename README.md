@@ -2,9 +2,9 @@
 
 This tool implements the method to enumerate bursty phrases in a target document set in reference with a reference document set.
 
-Phrases that frequently occur in the target document but not frequently in the reference document set can be bursty phrases.
+Phrases that frequently occur in the target document set but not frequently in the reference document set can be bursty phrases.
 
-The degree of the burst is standard score (z-score) of the Gaussian distribution.
+The degree of the burst is the standard score (z-score) of the Gaussian distribution.
 
 ## Requirement
 
@@ -17,7 +17,7 @@ C++11
 
 ## How to run
 
-    ./bin/default/burstyngram -T [TARGET_FILE_NAME] -R [REFERENCE_FILE_NAME] > [OUTPUT_FILE_NAME]
+    ./bin/default/burstyphrase -T [TARGET_FILE_NAME] -R [REFERENCE_FILE_NAME] > [OUTPUT_FILE_NAME]
 
 ## Input Format
 
@@ -27,7 +27,7 @@ Each input document has a header starting by ASCII code "0x02" and ending by "0x
 
 ## Set parameters
 
-`./bin/default/burstyngram` and see help.
+`./bin/default/burstyphrase` and see help.
 
 `-r` corresponds to 1+\epsilon and `-z` to \theta in the reference paper.
 
