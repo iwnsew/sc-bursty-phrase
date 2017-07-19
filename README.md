@@ -19,13 +19,13 @@ C++11
 
     ./bin/default/burstyphrase -T [TARGET_FILE_NAME] -R [REFERENCE_FILE_NAME] > [OUTPUT_FILE_NAME]
 
-## Input Format
+## Input format
 
 Both [TARGET_FILE_NAME] and [REFERENCE_FILE_NAME] are sets of text documents with delimiters.
 
 Each input document has a header starting by ASCII code "0x02" and ending by "0x03". This header acts as a delimiter for documents.
 
-## Set parameters
+## Parameters (optional)
 
 `./bin/default/burstyphrase` and see help.
 
