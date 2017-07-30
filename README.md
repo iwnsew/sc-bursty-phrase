@@ -1,6 +1,6 @@
 # Greedy Set Cover Algorithm for Bursty Phrase Extraction
 
-This tool implements the method to enumerate bursty phrases in a target document set in reference with a reference document set.
+This tool implements the method to enumerate bursty phrases in a target document set using a reference document set as the normal state.
 
 Phrases that frequently occur in the target document set but not frequently in the reference document set can be bursty phrases.
 
