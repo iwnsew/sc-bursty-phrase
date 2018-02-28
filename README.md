@@ -37,4 +37,4 @@ To prepare sample input (othar than Twitter data).
 
 ## Reference
 
-Masumi Shirakawa, Takahiro Hara and Takuya Maekawa: Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem, Conference on Empirical Methods in Natural Language Processing (EMNLP 2017) (Sept. 2017, to appear).
+Masumi Shirakawa, Takahiro Hara and Takuya Maekawa: Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem, Conference on Empirical Methods in Natural Language Processing (EMNLP 2017), pp. 2358-2367 (Sept. 2017).
